@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 25px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.search input {
+  background-color: transparent;
+  outline: none;
+}
+
+.search .percent {
+  width: 3rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+.search,
+.search input {
+  width: 100%;
+}
+

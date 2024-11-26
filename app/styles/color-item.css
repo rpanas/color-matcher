@@ -1,0 +1,58 @@
+.color-item {
+  position: relative;
+  flex-basis: calc(25% - 8px);
+  display: flex;
+  flex-flow: column nowrap;
+  width: 25vw;
+  height: 20vh;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.color-visualization {
+  flex: 3;
+  width: 100%;
+}
+
+.color-item .title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.30);
+  backdrop-filter: blur(10px);
+}
+
+.color-item .title .color {
+  white-space: none;
+  font-weight: bold;
+}
+
+.color-item .title .name {
+  font-size: .875rem;
+}
+
+@media screen and (max-width: 1268px) {
+  .color-item {
+    flex-basis: 32.5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .color-item {
+    flex-basis: 49%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .color-item {
+    flex-basis: 100%;
+  }
+}
+
+
+
