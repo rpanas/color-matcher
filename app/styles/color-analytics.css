@@ -22,13 +22,17 @@
   margin-bottom: 6rem;
 }
 
+.details h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
 .details p {
   color: rgba(255, 255, 255, 0.65);
 }
 
-.details h1 {
-  font-size: 5rem;
-  line-height: 1;
+.details {
+  mix-blend-mode: difference;
 }
 
 .match-colors {

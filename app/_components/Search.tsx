@@ -36,7 +36,7 @@ export default function Search({ value, onChange, ...rest }: SearchProps): React
 
       <label className="flex">
         <input
-          type="text items-center"
+          type="text"
           className="percent"
           value={value.minPercent}
           maxLength={3}
